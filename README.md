@@ -25,11 +25,15 @@ From the project root:
 ```bash
 glib-compile-schemas schemas
 gnome-extensions pack -f -o .dist .
-gnome-extensions install -f .dist/gnome-translator-v2@viktor.shell-extension.zip
-gnome-extensions enable gnome-translator-v2@viktor
+gnome-extensions install -f .dist/gnome-translator@camalouu.shell-extension.zip
+gnome-extensions enable gnome-translator@camalouu
 ```
 
 Reload GNOME Shell (X11: `Alt+F2`, then `r`; Wayland: log out/in) and the icon should appear in the top bar.
+
+## Keyboard Shortcut
+
+The default shortcut is `Super+Shift+;` to open the translator panel. You can customize this in the extension preferences.
 
 ## Why it stayed enabled after logout
 
@@ -38,7 +42,7 @@ This is normal GNOME behavior. Enabled extensions are persisted in `org.gnome.sh
 To disable:
 
 ```bash
-gnome-extensions disable gnome-translator-v2@viktor
+gnome-extensions disable gnome-translator@camalouu
 ```
 
 ## System impact / conflicts
@@ -46,7 +50,7 @@ gnome-extensions disable gnome-translator-v2@viktor
 This extension:
 
 - runs in GNOME Shell JS runtime like any other extension
-- adds one panel button and one keybinding (`<Super>semicolon`)
+- adds one panel button and one keybinding (`Super+Shift+;` by default, customizable in preferences)
 - stores only its own settings schema keys
 - calls `curl` to fetch translations from Google Translate API endpoint
 

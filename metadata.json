@@ -1,9 +1,9 @@
 {
-  "uuid": "gnome-translator-v2@viktor",
+  "uuid": "gnome-translator@camalouu",
   "name": "GNOME Translator",
-  "description": "Translate text from the top bar with automatic source language detection.",
+  "description": "Multi-language translation in your top bar. See translations in multiple languages simultaneously to truly understand the input.",
   "shell-version": ["45", "46", "47", "48"],
   "settings-schema": "org.gnome.shell.extensions.gnome-translator",
   "version": 3,
-  "url": "https://example.invalid/gnome-translator"
+  "url": "https://github.com/camalouu/gnome-translator"
 }

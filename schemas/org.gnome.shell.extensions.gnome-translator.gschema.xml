@@ -7,7 +7,7 @@
       <description>Languages shown in the top-bar translator dropdown.</description>
     </key>
     <key name="toggle-shortcut" type="as">
-      <default>['&lt;Super&gt;semicolon']</default>
+      <default>['&lt;Super&gt;&lt;Shift&gt;semicolon']</default>
       <summary>Shortcut to open the translator</summary>
       <description>Global keybinding used to toggle the translator dropdown.</description>
     </key>
