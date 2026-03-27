@@ -1,0 +1,73 @@
+.translator-menu {
+    min-width: 440px;
+}
+
+.translator-entry-item {
+    padding: 12px 12px 6px 12px;
+}
+
+.translator-entry {
+    padding: 12px 14px;
+    border-radius: 16px;
+    font-size: 1.1em;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.translator-hint-label,
+.translator-placeholder-label,
+.translator-target-label,
+.translator-result-label,
+.translator-result-error {
+    width: 100%;
+}
+
+.translator-hint-label {
+    color: rgba(255, 255, 255, 0.65);
+    padding: 0 14px 4px 14px;
+}
+
+.translator-placeholder-item {
+    padding: 12px 4px;
+}
+
+.translator-placeholder-label {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.translator-result-item {
+    spacing: 12px;
+    padding: 10px 8px;
+    border-radius: 16px;
+}
+
+.translator-result-item:focus,
+.translator-result-item:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.translator-result-box {
+    spacing: 4px;
+}
+
+.translator-target-label {
+    font-size: 0.85em;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.58);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.translator-result-label {
+    font-size: 1.05em;
+    line-height: 1.4;
+}
+
+.translator-result-error {
+    color: #ffb4ab;
+    line-height: 1.4;
+}
+
+.translator-copy-button {
+    padding: 8px;
+    border-radius: 12px;
+}

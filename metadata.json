@@ -1,0 +1,9 @@
+{
+  "uuid": "gnome-translator-v2@viktor",
+  "name": "GNOME Translator",
+  "description": "Translate text from the top bar with automatic source language detection.",
+  "shell-version": ["45", "46", "47", "48"],
+  "settings-schema": "org.gnome.shell.extensions.gnome-translator",
+  "version": 3,
+  "url": "https://example.invalid/gnome-translator"
+}

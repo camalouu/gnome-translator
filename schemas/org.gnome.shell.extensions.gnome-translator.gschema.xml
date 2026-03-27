@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.gnome-translator" path="/org/gnome/shell/extensions/gnome-translator/">
+    <key name="target-languages" type="as">
+      <default>['en', 'de', 'ru']</default>
+      <summary>Target translation languages</summary>
+      <description>Languages shown in the top-bar translator dropdown.</description>
+    </key>
+    <key name="toggle-shortcut" type="as">
+      <default>['&lt;Super&gt;semicolon']</default>
+      <summary>Shortcut to open the translator</summary>
+      <description>Global keybinding used to toggle the translator dropdown.</description>
+    </key>
+  </schema>
+</schemalist>
